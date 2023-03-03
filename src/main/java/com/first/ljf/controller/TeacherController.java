@@ -15,13 +15,13 @@ public class TeacherController {
         List<Teacher> teacherList = new ArrayList<>();
         Teacher teacher = new Teacher();
         teacher.setId(1);
-        teacher.setName("ljf");
+        teacher.setName("abc");
         teacherList.add(teacher);
 
         List<Teacher> teacherList1 = new ArrayList<>();
         Teacher teacher1 = new Teacher();
         teacher.setId(1);
-        teacher.setName("WWK");
+        teacher.setName("bcd");
         teacherList.add(teacher);
 
         return teacherList;
@@ -37,7 +37,7 @@ public class TeacherController {
            Teacher teacher = new Teacher();
            teacher.setId(1);
            teacher.setName("wwk");
-           teacher.setAge(33);
+           teacher.setAge(32);
 
             return teacher;
     }
